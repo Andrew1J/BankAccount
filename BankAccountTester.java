@@ -3,5 +3,6 @@ public class BankAccountTester {
         BankAccount bob = new BankAccount(1,"poop");
         System.out.println(bob.getAccountID());
         System.out.println(bob.getBalance());
+        System.out.println(bob.getPassword());
     }
 }
