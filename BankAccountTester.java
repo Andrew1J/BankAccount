@@ -4,5 +4,9 @@ public class BankAccountTester {
         System.out.println(bob.getAccountID());
         System.out.println(bob.getBalance());
         System.out.println(bob.getPassword());
+        bob.deposit(3.0);
+        System.out.println(bob.getBalance());
+        bob.deposit(-3.0);
+        System.out.println(bob.getBalance());
     }
 }
