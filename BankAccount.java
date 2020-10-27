@@ -32,4 +32,11 @@ public class BankAccount {
             return false;
         }
     }
+    public String toString(){
+        String res = "";
+        res += accountID;
+        res += "\t";
+        res += balance;
+        return res;
+    }
 }
