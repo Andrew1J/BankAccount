@@ -8,5 +8,9 @@ public class BankAccountTester {
         System.out.println(bob.getBalance());
         bob.deposit(-3.0);
         System.out.println(bob.getBalance());
+        bob.withdraw(5.0);
+        System.out.println(bob.getBalance());
+        bob.withdraw(2.0);
+        System.out.println(bob.getBalance());
     }
 }
