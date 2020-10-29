@@ -35,4 +35,7 @@ public class BankAccount {
     public String toString(){
         return "#" + accountID + "\t$" + balance;
     }
+    private boolean authenticate(String password){
+        return password.equals(password);
+    }
 }
